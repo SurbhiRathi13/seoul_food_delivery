@@ -1,0 +1,1 @@
+var ResponsiveWaterfallInit;(function(){function n(){ResponsiveWaterfall.fastcolorLoad=!1}n()})(ResponsiveWaterfallInit||(ResponsiveWaterfallInit={}))

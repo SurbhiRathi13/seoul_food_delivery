@@ -15,22 +15,18 @@
     </head>
 
     <body>
-        <header>
-            <nav class="navigation__bar">
-                <div class="navbar__logo">
-                    <img src="./assets/brand.jpg" alt="logo" class="brand__logo" />
+        
+        <nav class="navigation__bar">
+            <div class="navbar__logo">
+                <img src="./assets/brand.jpg" alt="logo" class="brand__logo" />
+            </div>
+            <div class="button">
+                <div class="primary">
+                    <button class="button__primary"> <strong>Sign in</strong></button>
                 </div>
-                <div class="button">
-                    <div class="primary">
-                        <button class="button__primary"> <strong>Sign in</strong></button>
-                    </div>
-                    <div class="primary">
-                        <button class="button__primary"> <strong>Sign up</strong></button>
-                    </div>
-                </div>
-                
-            </nav>
-        </header>
+            </div>
+            
+        </nav>
         <main>
             <section class="container">
                 <div class="laptop">
@@ -59,7 +55,7 @@
                          
                             <div class="address__input__form"> 
                                 <input type="email" class="address__input" placeholder="Your Delivery Address " />
-                
+                                <!-- <label class="map__marker" for="address__input"><i class="fa fa-map-marker" aria-hidden="true"></i></label> -->
                             </div>
                             <div class="order__button">
                                 <button class="order__now">Order Now</button>
@@ -67,6 +63,7 @@
                            
                     </div>
 
+                    
                 <!-- FEATURESSSS -->
                 <!-- feature 1 -->
                 <div class="feature__description">
@@ -115,65 +112,67 @@
 
             </section>
         </main>
-        <footer class="the__footer"> 
-            <div class="footer__description">
-                <div>
-                    <ul>
-                        <h5>
-                            Order Now
-                        </h5>
-                        <li>Deals</li>
-                        <li>Veg</li>
-                        <li>Non Veg</li>
-                        <li>Drinks</li>
-                        <li>Desserts</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <h5>About</h5>
-                        <li>About Us</li>
-                        <li>Contactless Delivery</li>
-                        <li>Proper Hygiene</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <h5>Our Policies</h5>
-                        <li>Terms And conditions</li>
-                        <li>Responsible Disclosure</li>
-                        <li>FAQs and Help</li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <h5>Visit Seoul Food</h5>
-                        <li>Locate A store</li>
-                        <li>Global Blog</li>
-                    </ul>
-                </div>
-    
+        <!-- footer -->
+
+    <footer class="the__footer"> 
+        <div class="footer__description">
+            <div>
+                <ul>
+                    <h5>
+                        Order Now
+                    </h5>
+                    <li><a href="./Menu_card.html" class="links">Side Dishes</a></li>
+                    <li><a href="./Menu_card.html" class="links">Noodles & Rice</a></li>
+                    <li><a href="./Menu_card.html" class="links">Kimbap</a></li>
+                    <li><a href="./Menu_card.html" class="links">Desserts & Drinks</a></li>
+                </ul>
             </div>
-            <div class="download__follow">
-                <div class="download__app">
-                    <h2>Download Our App</h2>
-                   <img src="./assets/download-google-play.png" alt="google play" class="google__play"/>
-                   <img src="./assets/download-app-store.png" alt="google appstore" class="google__appstore"/>
-                </div>
-              
-    
-                <div class="follow__us">
-                    <h2 >Follow Us:</h2>
-                    <div class="icon">
-                    <span ><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                    <span ><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
-                    <span ><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
-                    <span ><i class="fa fa-twitter" aria-hidden="true" ></i></span>
-                    </div>
+            <div>
+                <ul>
+                    <h5>About</h5>
+                    <li><a href="./aboutUs.html" class="links">About Us</a></li>
+                    <li>Contactless Delivery</li>
+                    <li>Proper Hygiene</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h5>Our Policies</h5>
+                    <li>Terms And conditions</li>
+                    <li>Responsible Disclosure</li>
+                    <li>FAQs and Help</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h5>Visit Seoul Food</h5>
+                    <li>Locate A store</li>
+                    <li><a href="./index.html" class="links">Seoul Food Website</a></li>
+                    <li>Global Blog</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="download__follow">
+            <div class="download__app">
+                <h2>Download Our App</h2>
+               <img src="./assets/download-google-play.png" alt="google play" class="google__play"/>
+               <img src="./assets/download-app-store.png" alt="google appstore" class="google__appstore"/>
+            </div>
+          
+
+            <div class="follow__us">
+                <h2 >Follow Us:</h2>
+                <div class="icon">
+                <span ><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                <span ><i class="fa fa-facebook-square" aria-hidden="true"></i></span>
+                <span ><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+                <span ><i class="fa fa-twitter" aria-hidden="true" ></i></span>
                 </div>
             </div>
-            
-             
-        </footer>
+        </div>
+        
+         
+    </footer>
     </body>
 </html>

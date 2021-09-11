@@ -7,10 +7,11 @@
 body{
     background-color:rgb(226, 236, 236);
     font-family: 'Signika', sans-serif;
+    background-image:url(https://th.bing.com/th/id/OIP.axltfarXlZuIFcyFVHhLiAHaHa?pid=ImgDet&w=900&h=900&rs=1);
 }
 
 .navigation__bar{
-   background-color: transparent;
+    background-color: transparent;
     position: sticky;
     display:flex;
     width:100%;
@@ -108,7 +109,40 @@ body{
     right:10px;
     box-shadow: 50px rgba(238, 27, 27, 0.897);
 }
+.heading{
+    font-size:100px;
+    text-align:center;
+    padding:10px;
+    background-image: transparent;
+}
+.menu__card{
+    position:relative;
+    top:50px;
+    padding:20px;
+    margin: 50px 0;
+}
+.menu__dishes{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap:10px;
+    padding:10px;
+    margin:10px;
+}
 
+.dish__type{
+    text-align:center;
+    font-weight:30px;
+    font-size:30px;
+}
+.menu__dish{
+    width:200px;
+    height:300px;
+}
+.dish{
+    width:100%;
+    height:75%;
+}
 .feature__text__container{
     position:relative;
     top: 50px;
@@ -179,16 +213,20 @@ body{
     background-color: darkslategrey;
     position:relative;
     width:100%;
-    top:480px;
+    top:350px;
     height:100%;
     display:flex;
     flex-direction:column;
     gap:50px;
     
 }
+.links{
+    color:black;
+}
+
+
 .footer__description{
     display:flex;
-    /* justify-content:space-around; */
     gap:50px;
     justify-content: space-evenly;
     flex-wrap:wrap;
@@ -216,6 +254,13 @@ body{
     gap:20px;
     position:absolute;
     padding:5px;
+}
+.about__us{
+    padding:25px;
+    margin:5px;
+}
+.footer{
+    top:70px;
 }
 
 @media(min-width:768px){
@@ -267,6 +312,9 @@ body{
 }
 .the__footer{
     top:700px;
+}
+.footer{
+    top:70px;
 }
 }
 
@@ -326,6 +374,7 @@ body{
     .order__now{
         top:68px;
     } 
+   
     .feature__description{
         position:relative;
         display:flex;
@@ -376,13 +425,51 @@ body{
     }
     .feature__description__three{
         display:flex;
+        margin:20px;
         align-items:center;
         top:1250px;
 
     }
+    .feature__text__container__three{
+        text-align: center;
+        margin:10px;
+    }
+    .delivery__boy{
+        left:20px;
+    }
+
+    .menu__dishes{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        gap:30px;
+        padding:20px;
+        margin:30px;
+    }
+    .heading{
+        background-image: linear-gradient(to right, white 20%, rgb(185, 231, 245) 60%, rgb(122, 207, 247) 100%);
+    }
+    .dish__type{
+        padding:5px;
+        background-image: linear-gradient(to right, white 20%, rgb(185, 231, 245) 60%, rgb(122, 207, 247) 100%);
+    }
+    .menu__dish{
+        width:300px;
+        height:400px;
+    }
+    .dish{
+        width:100%;
+        height:75%;
+    }
 
     .the__footer{
         top:1300px;
+    }
+    .about__us{
+        padding:80px;
+    }
+    .footer{
+        top:70px;
     }
 }
 
