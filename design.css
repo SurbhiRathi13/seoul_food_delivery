@@ -302,8 +302,12 @@ body{
 .welcome__text{
     font-size:xx-large;
 }
-
+.feature__text__container{
+    margin:10px;
+    padding:10px;
+}
 .feature__text{
+   
     font-size: xx-large;
 }
 
